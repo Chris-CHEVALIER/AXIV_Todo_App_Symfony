@@ -1,0 +1,23 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+	{{parent()}}- Accueil
+{% endblock %}
+
+{% block body %}
+	<div class="d-flex justify-content-center">
+		<div class="card" style="width: 18rem;">
+			<div class="card-body">
+				<h5 class="card-title">Courses</h5>
+				<ul class="card-text list-group">
+					<li class="list-group-item"><input type="checkbox" name="" id="" class="me-1">Lait</li>
+					<li class="list-group-item"><input type="checkbox" name="" id="" class="me-1">Beurre</li>
+					<li class="list-group-item"><input type="checkbox" name="" id="" class="me-1">Miel</li>
+				</ul>
+				<a href="#" class="btn btn-success mt-3 mx-auto d-block">
+					<i class="fa-solid fa-plus"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+{% endblock %}

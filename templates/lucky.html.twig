@@ -1,1 +1,26 @@
-<b>Mon numéro chanceux: {{random}}</b>
+<b>Mon numéro chanceux:
+	{{random}}</b>
+{# 
+{% set numbers = [1, 4, 2, 7, 8, 3] %}
+
+<p>Le max :
+	{{max(numbers)}}</p>
+<p>Le min :
+	{{min(numbers)}}</p>
+
+<pre>
+    {{ dump(vegetables) }}
+</pre>
+<ul>
+	{% for vegetable in vegetables %}
+		<li>{{vegetable}}</li>
+	{% endfor %}
+</ul>
+
+
+{% set firstName = "Chris" %}
+
+{{ firstName | reverse |capitalize}}
+
+{{"now"|date("d/m/Y")}}
+ #}
